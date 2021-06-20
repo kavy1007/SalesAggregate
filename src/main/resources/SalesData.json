@@ -1,0 +1,362 @@
+[
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 10,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "ORANGE",
+    "adjustmentPrice": 0
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "ORANGE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "MULTIPLY"
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 10,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "ORANGE",
+    "adjustmentPrice": 0
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "ORANGE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "MULTIPLY"
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 10,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "ORANGE",
+    "adjustmentPrice": 0
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "ORANGE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "MULTIPLY"
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 10,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "ORANGE",
+    "adjustmentPrice": 0
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "ORANGE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "MULTIPLY"
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 10,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "ORANGE",
+    "adjustmentPrice": 0
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "ORANGE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "MULTIPLY"
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 2,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 10,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "APPLE",
+    "adjustmentPrice": 0
+  },
+  {
+    "qty": 1,
+    "salesType": "SALE",
+    "unitPrice": 10,
+    "productType": "ORANGE",
+    "adjustmentPrice": 0
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "ORANGE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "ADD"
+  },
+  {
+    "salesType": "ADJUSTMENT",
+    "productType": "APPLE",
+    "adjustmentPrice": 5,
+    "productAdjustment": "MULTIPLY"
+  }
+]

@@ -14,7 +14,8 @@ public class SalesNotificationConsumer implements ISalesNotificationConsumer {
     private int aggreagteCount;
     private int adjustmentCount;
 
-    public SalesNotificationConsumer(ISalesMessageProducer salesMessageProducer, int aggreagteCount, int adjustmentCount) {
+    public SalesNotificationConsumer(ISalesMessageProducer salesMessageProducer,
+                                     int aggreagteCount, int adjustmentCount) {
         salesRecords = new SalesRecords(new HashMap<>());
         this.salesMessageProducer = salesMessageProducer;
         this.adjustmentCount = adjustmentCount;

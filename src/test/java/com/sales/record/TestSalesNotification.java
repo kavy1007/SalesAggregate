@@ -4,7 +4,6 @@ import com.sales.record.consumer.SalesNotificationConsumer;
 import com.sales.record.model.ProductAdjustment;
 import com.sales.record.model.SalesMessage;
 import com.sales.record.model.SalesType;
-import com.sales.record.producer.ISalesMessageProducer;
 import com.sales.record.producer.SalesMessageProducerImpl;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +16,8 @@ import java.util.concurrent.LinkedBlockingDeque;
 public class TestSalesNotification {
     @Test
     public void testSales() throws IOException, InterruptedException {
-        ISalesMessageProducer salesMessageProducer = new SalesMessageProducerImpl();
+        SalesMessageProducerImpl salesMessageProducer = new SalesMessageProducerImpl();
+        SalesMessageProducerImpl.setFilePath("src/test/resources/TestSalesData.json");
         SalesNotificationConsumer salesNotificationConsumer = new SalesNotificationConsumer(salesMessageProducer, 10, 50);
         salesNotificationConsumer.consumeSalesNotificationMessage();
     }
