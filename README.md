@@ -46,3 +46,5 @@ To Run the application:
 Additional Dev:
 
 *     the consumer can start consuming from actual Topic/Queue in real env
+
+Have not used Kafka/MQ/spring Boot Framework since external jar dependencies were asked t be minimized
