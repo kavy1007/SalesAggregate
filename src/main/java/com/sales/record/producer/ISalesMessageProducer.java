@@ -2,8 +2,11 @@ package com.sales.record.producer;
 
 import com.sales.record.model.SalesMessage;
 
-import java.util.stream.Stream;
+import java.io.IOException;
+import java.util.concurrent.BlockingQueue;
 
 public interface ISalesMessageProducer {
-    Stream<SalesMessage> publishSalesRecords();
+    BlockingQueue<SalesMessage> getRecords();
+
+    void readSampleData() throws IOException, InterruptedException;
 }

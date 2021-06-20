@@ -1,6 +1,5 @@
 package com.sales.record.infra;
 
-import com.sales.record.model.ProductAdjustment;
 import com.sales.record.model.SalesMessage;
 
 import java.math.BigDecimal;
@@ -24,13 +23,9 @@ public class ProductSalesRepo {
                 salesQty += salesMessage.getQty();
                 totalSalesPrice = totalSalesPrice.add(salesMessage.calculateSales());
             } else {
-                if (salesMessage.getProductAdjustment().equals(ProductAdjustment.ADD)) {
-                    totalSalesPrice = totalSalesPrice.add(salesMessage.getAdjustmentPrice().multiply(BigDecimal.valueOf(salesQty)));
-                } else if (salesMessage.getProductAdjustment().equals(ProductAdjustment.SUBTRACT)) {
-                    totalSalesPrice = totalSalesPrice.subtract(salesMessage.getAdjustmentPrice().multiply(BigDecimal.valueOf(salesQty)));
-                } else if (salesMessage.getProductAdjustment().equals(ProductAdjustment.MULTIPLY)) {
-                    totalSalesPrice = totalSalesPrice.multiply(salesMessage.getAdjustmentPrice().multiply(BigDecimal.valueOf(salesQty)));
-                }
+                totalSalesPrice = salesMessage.getProductAdjustment()
+                        .adjustPrice(totalSalesPrice, salesMessage.getAdjustmentPrice().multiply(BigDecimal.valueOf(salesQty)));
+
             }
         });
     }

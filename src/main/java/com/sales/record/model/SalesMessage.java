@@ -27,6 +27,11 @@ public class SalesMessage implements Comparable<SalesMessage> {
         return salesType.equals(SalesType.SALE);
     }
 
+    public SalesType getSalesType() {
+        return salesType;
+    }
+
+
     public BigDecimal calculateSales() {
         return unitPrice.multiply(BigDecimal.valueOf(qty));
     }
