@@ -2,7 +2,6 @@ package com.sales.record.consumer;
 
 import com.sales.record.infra.ProductSalesRepo;
 import com.sales.record.infra.SalesRecords;
-import com.sales.record.model.ProductType;
 import com.sales.record.model.SalesMessage;
 
 import java.util.List;
@@ -29,7 +28,7 @@ public class PrintSales {
     }
 
 
-    private void printSales(ProductType productType, ProductSalesRepo productSales) {
+    private void printSales(String productType, ProductSalesRepo productSales) {
         System.out.print(String.format("%30s %25s %10s %25s %10s%n", productType,
                 "|", productSales.getTotalSalesPrice(), "|", productSales.getSalesQty()));
     }

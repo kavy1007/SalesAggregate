@@ -5,16 +5,16 @@ import java.time.Instant;
 
 public class SalesMessage implements Comparable<SalesMessage> {
     private int qty = 1;
-    private Instant createTs;
+    private Instant createTs = Instant.now();
     private ProductAdjustment productAdjustment;
     private SalesType salesType;
     private BigDecimal unitPrice;
-    private ProductType productType;
+    private String productType;
     private BigDecimal adjustmentPrice;
 
     public SalesMessage(int qty, ProductAdjustment productAdjustment,
                         SalesType salesType, BigDecimal unitPrice,
-                        ProductType productType, BigDecimal adjustmentPrice) {
+                        String productType, BigDecimal adjustmentPrice) {
         this.qty = qty;
         this.productAdjustment = productAdjustment;
         this.salesType = salesType;
@@ -43,7 +43,7 @@ public class SalesMessage implements Comparable<SalesMessage> {
         return adjustmentPrice;
     }
 
-    public ProductType getProductType() {
+    public String getProductType() {
         return productType;
     }
 
